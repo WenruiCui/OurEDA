@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#363638"
+    android:orientation="vertical"
+    tools:context=".TopShow_activity" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="@drawable/actionbar_top" />
+
+    <ListView
+        android:id="@+id/ls_top_show"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="85" />
+
+</LinearLayout>
