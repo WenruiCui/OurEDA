@@ -57,7 +57,7 @@ public class LockTask extends TimerTask {
 			mContext.startActivity(intent);
 
 		} else {
-			// System.out.println("娌℃壘鍒帮紒锛侊紒锛侊紒锛侊紒锛侊紒锛侊紒锛侊紒锛侊紒锛侊紒锛侊紒锛�?;
+			System.out.println("iiooo");
 
 		}
 
